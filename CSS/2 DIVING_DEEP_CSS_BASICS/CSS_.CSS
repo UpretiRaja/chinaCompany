@@ -1,0 +1,36 @@
+/* * {
+    color: black;
+    font-family: cursive;
+} */
+
+#DIV_SLE+P.DIV {
+    color: RED;
+}
+
+
+/* #MAIN_TAG {
+    color: skyblue;
+} */
+
+.main-tag {
+    color: green;
+    font-family: serif;
+}
+
+
+/* #MAIN_TAG {
+    font-family: 'Noto Sans JP', sans-serif;
+} */
+
+.he3 {
+    font-family: cursive;
+    color: white;
+}
+
+[DISABLED] {
+    color: rebeccapurple;
+}
+
+P+SPAN+BR+BR+.SPACE {
+    COLOR: RED;
+}

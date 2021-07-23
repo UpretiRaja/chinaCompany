@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-section {
+    background-color: #ff1b68;
+    font-family: cursive;
+    color: white;
+    /* border-width: 2px;
+    border-color: orange;
+    border-style: solid; */
+    border: 2px orange solid;
+    /* margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px; */
+    /* margin: 5px 10px 5px 10px; */
+    /* margin: 5px 10px; */
+    /* margin: 5px; */
+    width: 100%;
+    height: 50%;
+    background: url("https://mosaicadventure.com/wp-content/uploads/2017/05/6-Best-Places-to-Witness-Sunrise-in-Nepal-1.jpg");
+}
+
+.sub-section {
+    color: #2ddf5c;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.main-item {
+    display: inline-block;
+}
+
+.company {
+    font-size: 30;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+#main-header>div {
+    display: inline-block;
+    background-color: #2ddf5c;
+}
+
+
+/* .main-nav>.main-items>.sub-item {
+    display: inline-block;
+    padding-right: 10px;
+} */
+
+.main-items {
+    text-align: right;
+}
+
+
+/* .sub-item a:hover {
+    color: white;
+}
+
+.sub-item a:active {
+    color: white;
+} */
+
+.sub-item a:hover,
+.sub-item a:active {
+    color: white;
+}
+
+
+/* p:first-of-type {
+    color: red;
+} */
+
+
+/* p::first-letter {
+    font-size: 50;
+} */
+
+.sub-item-cta {
+    list-style: none;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.sub-item-cta a:hover {
+    background-color: white;
+    color: red;
+}
+
+.main-nav {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    list-style: none;
+    width: calc(100%-100px);
+}
+
+.sub-item {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+}

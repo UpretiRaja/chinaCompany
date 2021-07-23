@@ -1,0 +1,69 @@
+/* EXTERNAL STYLE SHEET */
+
+BODY {
+    background-color: grey;
+    /* margin-left: 20PX; */
+}
+
+P {
+    margin-left: 20PX;
+    font-family: CURSIVE;
+    font-size: 20;
+    color: rgb(0, green, blue);
+}
+
+P.right {
+    text-align: right;
+}
+
+P.left {
+    text-align: left;
+}
+
+P#idSelector1 {
+    text-align: center;
+}
+
+P.DOTTED {
+    border-style: dotted;
+}
+
+P.DASHED {
+    border-style: dashed;
+}
+
+P.SOLID {
+    border-style: SOLID;
+}
+
+P.DOUBLE {
+    border-style: DOUBLE;
+}
+
+P.GROOVE {
+    border-style: groove;
+}
+
+P.RIDGE {
+    border-style: ridge;
+}
+
+P.INSET {
+    border-style: INSET;
+}
+
+P.OUTSET {
+    border-style: outset;
+}
+
+
+/* SELECTOR TYPE 
+1. TAG SELECTOR
+2. THE CLASS SELECTOR
+3. ID SELECTOR */
+
+
+/* INTERNAL STYLE SHEET SYNTAX
+SELECTOR {
+    PROPERTY: VALUE;
+} */

@@ -1,0 +1,175 @@
+<HTML>
+
+<HEAD>
+    <TITLE> CSS BASICS </TITLE>
+    <LINK REL="STYLESHEET" TYPE="TEXT/CSS" href="CSS_BASICS.CSS">
+    <!-- INTERNAL STYLE SHEET
+        
+        <STYLE TYPE="TEXT/CSS">
+        BODY {
+            background-color: GREY;
+            /* margin-left: 20PX; */
+        }
+        
+        P {
+            margin-left: 20PX;
+        }
+        /* INTERNAL STYLE SHEET SYNTAX
+        SELECTOR <TAG NAME> {
+            PROPERTY: VALUE;
+        } */
+       EXAMPLE: BODY{
+            COLOR:black;
+        }
+    </STYLE> -->
+
+    <STYLE TYPE="TEXT/CSS">
+        H1 {
+            text-decoration: line-through;
+        }
+        
+        H2 {
+            text-decoration: underline;
+        }
+        
+        H4 {
+            text-decoration: overline;
+        }
+        
+        H5 {
+            text-decoration: none;
+        }
+        
+        UL {
+            list-style-TYPE: CIRCLE;
+        }
+        
+        A:LINK {
+            COLOR: #FF0000;
+        }
+        
+        A:VISITED {
+            COLOR: #00FF00;
+        }
+        
+        A:HOVER {
+            COLOR: #FF00FF;
+        }
+        
+        A:ACTIVE {
+            COLOR: #0000FF;
+        }
+        
+        A.ONE:LINK {
+            COLOR: #FF0000;
+        }
+        
+        A.ONE:VISITED {
+            COLOR: #00FF00;
+        }
+        
+        A.ONE:HOVER {
+            COLOR: #FF00FF;
+        }
+    </STYLE>
+</HEAD>
+
+<BODY>
+    <H3> INLINE STYLE </H3>
+    <!-- <P STYLE="COLOR:#106ba8;margin-left: 20PX;">
+       
+    </P> -->
+    <P class="right">
+        THIS IS CSS DESIGNED TEXT.
+    </P>
+
+    <BR>
+    <H3> INTERNAL STYLE SHEET </H3>
+    <P class="left">
+        THIS IS INTERNAL STYLE SHEET
+    </P>
+
+    <P class="left">
+        THIS IS 2ND INTERNAL STYLE SHEET.
+    </P>
+
+    <P ID="idSelector1">
+        THIS IS ID SELECTOR.
+    </p>
+
+    <P ID="idSelector2">
+        THIS IS ID 2 SELECTOR.
+    </p>
+
+    <H1> THIS IS H1 </H1>
+    <H2> THIS IS H2 </H2>
+    <H4> THIS IS H4 </H4>
+    <H5>
+        <A HREF="HTTPS://WWW.GOOGLE.COM"> GOOGLE </A>
+    </H5>
+
+    <p class="DOTTED">
+
+        THIS IS DOTTED BORDER.
+
+    </p>
+    <p class="DASHED">
+
+        THIS IS DASHED BORDER.
+
+    </p>
+    <p class="SOLID">
+
+        THIS IS SOLID BORDER.
+
+    </p>
+    <p class="DOUBLE">
+
+        THIS IS DOUBLE BORDER.
+
+    </p>
+    <p class="GROOVE">
+
+        THIS IS GROOVE BORDER.
+
+    </p>
+    <p class="RIDGE">
+
+        THIS IS RIDGE BORDER.
+
+    </p>
+    <p class="INSET">
+
+        THIS IS INSET BORDER.
+
+    </p>
+    <p class="OUTSET">
+
+        THIS IS OUTSET BORDER.
+
+    </p>
+
+    <UL>
+        <LI> COFFEE </LI>
+        <LI> TEA </LI>
+    </UL>
+
+    <p>
+        <B>
+
+            <button>
+
+                <A HREF="index.htm" TARGET="_BLANK"> GOOGLE </A>
+            </button>
+        </B>
+    </p>
+
+    <p> MOUSE OVER THE LINKS TO SEE THEM CHANGE LAYOUT </p>
+    <P>
+        <B> <A CLASS="ONE" HREF="INDEX.HTM" TARGET="_BLANK"> THIS LINK CHANGES COLOR</A></B>
+    </P>
+
+
+</BODY>
+
+</HTML>
